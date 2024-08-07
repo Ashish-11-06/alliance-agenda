@@ -1,16 +1,21 @@
 
 import './style/App.css';
-import Header from './components/Header';
-import Section1 from './components/Section1';
-
+import Welcome from './components/Welcome';
+import Communication from './components/Communication';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Section1 />
-    </div>
+    <Router>
+      <Routes>
+        {/* <Route path="/communication" element={<Communication />} /> */}
+        <Route path="/" element={<Welcome />} />
+
+      </Routes>
+    </Router>
   );
 }
 
 export default App;
+
