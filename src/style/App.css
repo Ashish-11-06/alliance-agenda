@@ -720,11 +720,7 @@ label {
 .container,
 .container-sm {
   width: 100%;
-<<<<<<< HEAD
   margin: auto auto ;
-=======
-  margin: 0 auto;
->>>>>>> 6542df25bdcbb2e6c5fab2e096d4c1fe665708c8
   padding-left: 16px;
   padding-right: 16px
 }
@@ -1696,11 +1692,7 @@ label {
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin-right: -32px;
-<<<<<<< HEAD
   margin-left: -32px;
-=======
-  margin-left: -32px
->>>>>>> 6542df25bdcbb2e6c5fab2e096d4c1fe665708c8
 }
 
 .features-wrap:first-of-type {
@@ -2008,13 +2000,8 @@ main {
 
   .site-footer-inner {
       justify-content: space-between;
-<<<<<<< HEAD
       /* padding-top: 64px;
       padding-bottom: 64px */
-=======
-      padding-top: 64px;
-      padding-bottom: 64px
->>>>>>> 6542df25bdcbb2e6c5fab2e096d4c1fe665708c8
   }
 
   .footer-brand,
